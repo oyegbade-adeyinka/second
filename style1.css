@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,400;1,800;1,900&display=swap');
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bold{
+  font-weight:bold;
+
+}
+body {
+  font-family: 'poppins', arial;
+  margin: 0;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  background-image: url('IMG_8842.PNG');
+  background-color: #ff6666;
+  padding: 100px;
+}
+
+input {
+  font-family: 'poppins';
+}
+
+.purple {
+  position: absolute;
+  right: 275px;
+  margin-bottom: 180px;
+  background-color: #6055a5;
+  border-radius: 10px;
+  padding: 15px 50px 15px 50px;
+  font-size: 13px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 1px 5px 5px grey;
+  top: 200px;
+}
+
+h1 {
+  color: #fff;
+  position: relative;
+  padding-right: 100px;
+  margin-right: 950px;
+  text-align: left;
+  font-size: 50px;
+  line-height: 60px;
+  left: 90px;
+}
+
+.p1 {
+  position: absolute;
+  bottom: 320px;
+  left: 187px;
+}
+
+.white{
+  color: #FFF
+}
+
+.form-control {
+  background-color: #fff;
+  flex-direction: column;
+  margin-top: 80px;
+  border-radius: 10px;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  right: 275px;
+  position: absolute;
+  max-width: 400px;
+  width: 100%;
+  top: 200px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.form-control input {
+  margin: 10px 0 5px;
+  height: 38px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+input {
+  padding: 0 20px;
+  border: 0.5px solid #b7b4d3;
+}
+input:focus{
+  border: 1px solid #a9a1f7;
+}
+.btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 15px 10px;
+  background-color: rgb(50, 172, 50);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'poppins';
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+h2 {
+  font-size: 8px;
+  margin-top: 20px;
+  opacity: 0.5;
+  padding: 0 20px;
+}
+
+.red a{
+  color: red;
+  text-decoration: none;
+}
+

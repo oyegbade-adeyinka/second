@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Robot&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.container {
+  
+  position: relative;
+  /*background-color: #fff;*/
+  border-radius: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  border: 1px solid #000;
+}
+
+h1 {
+  color: #fff;
+  font-size: 8px;
+  position: absolute;
+  transform-origin: 0 0;
+  transform: rotate(270deg);
+  top: 120px;
+  left: 72px;
+}
+
+.box {
+  background-color: #e4e4e4;
+  height: 6in;
+  width: 3in;
+  border-radius: 38px;
+  padding: 10px;
+  background: linear-gradient(0.2turn, #009ffd, #4a89ff, #2a2a72);
+}
+
+.camera {
+  background-color: #000;
+  height: 178px;
+  width: 50px;
+  top: 10px;
+  left: 40px;
+  border-radius: 50px;
+  padding: 20px;
+  border: 2px solid rgb(62, 48, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.flashlight {
+  background-color: #000;
+  background: linear-gradient(0.2turn, #feffff, #ffffff, #9e9e9e);
+  height: 22px;
+  position: absolute;
+  width: 12px;
+  top: 30px;
+  left: 70px;
+  border-radius: 10px;
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+h2{
+  position: absolute;
+  color: rgb(236, 236, 236);
+  bottom: 15px;
+  font-size: 22px;
+  font-family: inherit;
+  left: 25px;
+  opacity: 0.5;
+  transform-origin: 0 0;
+  transform: rotate(270deg);
+  font-weight: bold;
+}
+
+.camera::before, .camera::after {
+  content: '\f192';
+  font-family: 'Font Awesome 5 Free';
+  color: rgb(206, 206, 206);
+  position: absolute;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+  left: 18px;
+}
+
+.camera::before {
+  position: absolute;
+  top: 20px;
+}
+
+
+.camera::after {
+  position: absolute;
+  top: 60px;
+  left:px;
+  color: rgb(122, 122, 122);
+}
+
+.camera1::before, .camera1::after {
+  content: '\f192';
+  font-family: 'Font Awesome 5 Free';
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 35px;
+  align-items: center;
+  justify-content: center;
+  left: 18px;
+}
+
+.camera1::after {
+  position: absolute;
+  top: 140px;
+  left:px;
+  color: rgb(122, 122, 122);
+}
+
+.camera1::before {
+  position: absolute;
+  top: 100px;
+  color: rgb(122, 122, 122);
+}
+
+img {
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: 120px;
+  left: 90px;
+}
+
+.finger-print {
+  background-color: #1900ff;
+  height: 55px;
+  width: 55px;
+  border-radius: 50px;
+  position: absolute;
+  border: 2px solid #474747;
+  top: 133px;
+  left: 120px
+}
+
+.box2.show {
+  transform: rotateY(180deg);
+}
+
+.box2 {
+  background-color: #e4e4e4;
+  height: 6in;
+  width: 3in;
+  border-radius: 38px;
+  padding: 10px;
+  position: relative;
+}
+
