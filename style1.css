@@ -187,6 +187,168 @@ h2 {
     margin-top: 20px;
     opacity: 0.5;
     padding: 0 20px;
+    text-align: center;
   }
 }
 
+
+@media screen and (min-width:375px) {
+  h1 {
+    text-align: center;
+    color: #fff;
+ position: relative;
+ font-size: 35px;
+ line-height: 40px;
+ left: 0px;
+ margin: 0px 0px;
+ padding: 0px 0px;
+ bottom: 250px;
+  }
+
+  .purple{
+    right: 39px;
+    position: absolute;
+    top: 385px;
+    background-color: #6055a5;
+    border-radius: 10px;
+    padding: 7px 0px 15px 50px;
+    font-size: 10px;
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 1px 5px 5px grey;
+  }
+
+  .form-control {
+   background-color: #fff;
+   flex-direction: column;
+   margin-top: 290px;
+   border-radius: 10px;
+   padding: 10px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   right: 39px;
+   position: absolute;
+   max-width: 300px;
+   width: 100%;
+   top: 120px;
+   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+ }
+
+ .p1 {
+   position: absolute;
+   top: 250px;
+   left: 13px;
+   text-align: center;
+   font-size: 15px;
+ }
+
+ .form-control input {
+   margin: 10px 0 5px;
+   height: 30px;
+   border-radius: 5px;
+   width: 100%;
+ }
+
+ h2 {
+   font-size: 10px;
+   margin-top: 10px;
+   opacity: 0.5;
+   padding: 0 20px;
+   text-align: center;
+ }
+
+ .btn {
+  width: 75%;
+  margin-top: 20px;
+  padding: 10px 5px;
+  background-color: rgb(50, 172, 50);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'poppins';
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+}
+
+
+@media screen and (min-width:414px) {
+  h1 {
+    text-align: center;
+    color: #fff;
+ position: relative;
+ font-size: 30px;
+ line-height: 40px;
+ left: 0px;
+ margin: 0px 0px;
+ padding: 0px 0px;
+ bottom: 240px;
+  }
+
+  .purple{
+    right: 56px;
+    position: absolute;
+    top: 440px;
+    background-color: #6055a5;
+    border-radius: 10px;
+    padding: 7px 0px 15px 50px;
+    font-size: 10px;
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 1px 5px 5px grey;
+  }
+
+  .form-control {
+   background-color: #fff;
+   flex-direction: column;
+   margin-top: 290px;
+   border-radius: 10px;
+   padding: 10px;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   right: 56px;
+   position: absolute;
+   max-width: 300px;
+   width: 100%;
+   top: 175px;
+   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+ }
+
+ .p1 {
+   position: absolute;
+   top: 290px;
+   left: 10px;
+   text-align: center;
+   font-size: 15px;
+ }
+
+ .form-control input {
+   margin: 10px 0 5px;
+   height: 30px;
+   border-radius: 5px;
+   width: 100%;
+ }
+
+ h2 {
+   font-size: 10px;
+   margin-top: 10px;
+   opacity: 0.5;
+   padding: 0 20px;
+   text-align: center;
+ }
+
+ .btn {
+  width: 75%;
+  margin-top: 20px;
+  padding: 10px 5px;
+  background-color: rgb(50, 172, 50);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'poppins';
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+}
