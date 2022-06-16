@@ -203,6 +203,7 @@ h2 {
  margin: 0px 0px;
  padding: 0px 0px;
  bottom: 250px;
+ white-space: nowrap;
   }
 
   .purple{
@@ -284,6 +285,7 @@ h2 {
  margin: 0px 0px;
  padding: 0px 0px;
  bottom: 240px;
+ white-space: nowrap;
   }
 
   .purple{
