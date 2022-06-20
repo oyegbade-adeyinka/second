@@ -192,7 +192,7 @@ h2 {
 }
 
 
-@media screen and (min-width:375px) {
+@media screen and (max-width:375px) {
   h1 {
     text-align: center;
     color: #fff;
@@ -274,7 +274,7 @@ h2 {
 }
 
 
-@media screen and (min-width:414px) {
+@media screen and (max-width:414px) {
   h1 {
     text-align: center;
     color: #fff;
@@ -288,7 +288,7 @@ h2 {
   }
 
   .purple{
-    right: 56px;
+    /* right: 56px; */
     position: absolute;
     top: 440px;
     background-color: #6055a5;
@@ -309,7 +309,7 @@ h2 {
    align-items: center;
    justify-content: center;
    display: flex;
-   right: 56px;
+   /* right: 56px; */
    position: absolute;
    max-width: 300px;
    width: 100%;
