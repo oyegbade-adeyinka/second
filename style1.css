@@ -45,12 +45,13 @@ input {
 h1 {
   color: #fff;
   position: relative;
-  padding-right: 100px;
+  top: -107px;
   margin-right: 950px;
   text-align: left;
   font-size: 50px;
   line-height: 60px;
-  left: 90px;
+  left: 103px;
+  white-space: nowrap;
 }
 
 .p1 {
